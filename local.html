@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="local.css">
+    <script src="local.js"></script>
+    <title>Localizador</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <section>
+            <a href="index.html" class="logo">
+                <img src="imagens/logo tipo1.svg" alt="logo">
+            </a>
+
+            <nav class="navbar">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">Sobre</a>
+                <a href="index.html#menu">Menu</a>
+                <a href="index.html#review">Clientes</a>
+                <a href="index.html#address">Endereço</a>
+            </nav>
+            <a href="https://geral1804.wixsite.com/aeje" class="icons" target="_blank">
+                <img src="imagens/logo_white_transparent.png" alt="icons">
+            </a>
+        </section>
+    </header>
+
+    <section class="localizador">
+        <h2>Localizador</h2>
+
+        <div class="inputs">
+            <div class="inputs-row">
+                <div>
+                    <label for="origem">Origem:</label>
+                    <input type="text" id="origem" placeholder="ex.: sala 23">
+                </div>
+                <div>
+                    <label for="destino">Destino:</label>
+                    <input type="text" id="destino" placeholder="ex.: casa de banho F">
+                </div>
+            </div>
+            <button id="BuscarBtn">Buscar</button>
+        </div>
+
+        <div class="resultado">
+            <img id="imagemResultado" src="" alt="Resultado">
+        </div>
+    </section>
+</body>
+
+</html>
